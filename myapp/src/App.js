@@ -1,7 +1,9 @@
 import "./App.css";
-import Gallary from "./components/Gallary";
-import Header from "./components/Header";
-import SideBar from "./components/SideBar";
+//import Gallary from "./components/Gallary";
+//import Header from "./components/Header";
+//import SideBar from "./components/SideBar";
+
+// MainLayout file is importing from website folder which takes nested child components, so we don't need to add child components again here.
 import MainLayout from "./website/MainLayout";
 
 
