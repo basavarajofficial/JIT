@@ -1,0 +1,28 @@
+.main{
+  display: flex;
+
+}
+.main  a{
+  color: white;
+
+  text-decoration: none;
+  padding: 10px;
+}
+
+.bodyContent{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+.gallary{
+  width: 50vw;
+  background-color: brown;
+}
+
+.sideBar{
+  width: 50vw;
+  background-color: green;
+}

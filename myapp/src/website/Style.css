@@ -1,0 +1,22 @@
+.header{
+    background-color: navy;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.bodyContent{
+    width: 100%;
+    display: flex;
+}
+
+.gallary{
+    background-color: red;
+    width: 50vw;
+}
+.sidebar{
+    background-color: green;
+    width: 50vw;
+}
