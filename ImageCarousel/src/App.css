@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+
+.title{
+  font-family: 'Edu TAS Beginner', cursive;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+.btn{
+  background-color: navy;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 15px 10px  red;
+}
+.count{
+  background-color: navy;
+  color: #fff;
+  width: 200px;
+  height: 100px;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
