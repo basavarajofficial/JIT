@@ -1,0 +1,26 @@
+
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+    "title" : "React"
+}
+
+###
+GET http://localhost:5000/todos
+
+###
+
+GET http://localhost:5000/todos/655c6fc6ee7f32aff9748f5d
+
+###
+DELETE  http://localhost:5000/todos/655c6fc6ee7f32aff9748f5d
+
+###
+
+PATCH http://localhost:5000/todos/655c7c68bd6751aa919652d0
+Content-Type: application/json
+
+{
+    "title" : "next todo project"
+}
